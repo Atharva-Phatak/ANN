@@ -61,8 +61,6 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test , y_pred)
 
 
-np.savetxt('predicted.csv',y_pred)
-np.savetxt('test_data.csv' , y_test)
 
 
 
