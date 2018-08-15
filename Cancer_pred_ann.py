@@ -60,6 +60,10 @@ y_pred = (y_pred > 0.8)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test , y_pred)
 
+#CHECKING THE ACCURACY
+from sklearn.metrics import accuracy_score
+print("THE ACCURACY OF THE MODEL IN PERCENT IS: {}".format(accuracy_score(y_test , y_pred) *100))
+
 
 
 
